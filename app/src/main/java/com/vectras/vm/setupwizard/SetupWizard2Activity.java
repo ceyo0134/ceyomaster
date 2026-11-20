@@ -96,7 +96,8 @@ public class SetupWizard2Activity extends AppCompatActivity {
             @Override
             public void handleOnBackPressed() {
                 if (currentStep > STEP_JOIN_COMMUNITY) {
-                    uiControllerFinalSteps(currentStep - 1);
+                    startActivity(new Intent(SetupWizard2Activity.this, MainActivity.class));
+                    finish();
                 } else if (!isExecutingCommand) {
                     setEnabled(false);
                     getOnBackPressedDispatcher().onBackPressed();
@@ -622,7 +623,7 @@ public class SetupWizard2Activity extends AppCompatActivity {
                         MainSettingsManager.setCoreSetupVersion(SetupWizard2Activity.this, AppConfig.coreSetupVersion);
                         MainSettingsManager.setsetUpWithManualSetupBefore(SetupWizard2Activity.this, isCustomSetupMode);
                         uiController(STEP_JOIN_COMMUNITY);
-                        if (ACTION == ACTION_SYSTEM_UPDATE) uiControllerFinalSteps(STEP_FINISH);
+                        uiControllerFinalSteps(STEP_FINISH); // CeyoMaster: skip community/donate steps
                     });
                 } else {
                     runOnUiThread(() -> {
