@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Vectras VM</string>
+    <string name="app_name">CeyoMaster</string>
     <string name="startvm">虚拟机已启动！</string>
     <string name="stopvm">虚拟机已关闭！</string>
     <string name="noproccesses">无进程！</string>

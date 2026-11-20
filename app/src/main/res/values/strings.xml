@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Vectras VM Github</string>
+    <string name="app_name">CeyoMaster</string>
 
     <!--======================VECTRAS STRINGS====================-->
     <string name="qemu_version" translatable="false">Stable</string>
@@ -1222,7 +1222,7 @@ E.g. <b>META</b> for <i>META key</i>, \n
     <!-- Log Level -->
     <!-- Was: log_level_value -->
 
-    <!-- <string name="app_name" translatable="false">My Awesome App</string> -->
+    <!-- <string name="app_name" translatable="false">CeyoMaster</string> -->
 
     <!-- <string name="shared_user_label" translatable="false">Vterm user</string> -->
 

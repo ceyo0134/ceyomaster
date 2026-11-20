@@ -1,6 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.Material3Expressive.DayNight.NoActionBar">
+        <item name="colorPrimary">#B794FF</item>
+        <item name="colorOnPrimary">#2E0A6B</item>
+        <item name="colorPrimaryContainer">#4A1FA8</item>
+        <item name="colorOnPrimaryContainer">#EDE4FF</item>
+        <item name="colorSecondary">#4DD8F0</item>
+        <item name="colorOnSecondary">#00363F</item>
+        <item name="colorSecondaryContainer">#004E5C</item>
+        <item name="colorOnSecondaryContainer">#CFF5FF</item>
+        <item name="colorTertiary">#FF8AC0</item>
+        <item name="colorSurface">#0E0B16</item>
+        <item name="colorSurfaceContainerLow">#14101F</item>
+        <item name="colorSurfaceContainerLowest">#0A0810</item>
+
         <item name="android:windowBackground">?attr/colorSurfaceContainerLow</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
