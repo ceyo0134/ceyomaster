@@ -11,8 +11,8 @@ android {
         applicationId "com.ceyomaster"
         minSdk minApi
         targetSdk targetApi
-        versionCode 157
-        versionName "4.5.0"
+        versionCode 158
+        versionName "4.5.0-ceyo1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
 
@@ -100,7 +100,7 @@ androidComponents {
             if (variant.buildType == 'release') {
                 def abiName = abiFilter?.identifier ?: 'universal'
                 output.outputFileName.set(output.versionCode.map { code ->
-                    "vectras-vm-github-${abiName}-${code}.apk".toString()
+                    "ceyomaster-${abiName}-${code}.apk".toString()
                 })
             } else if (variant.buildType == 'debug') {
                 // ABI splits are configured globally; keep debug as one universal APK.
