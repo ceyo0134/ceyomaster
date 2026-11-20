@@ -58,7 +58,7 @@ public class AppConfig {
         return activity.getExternalFilesDir("data") + "/Vectras";
         //return FileUtils.getExternalFilesDirectory(activity).getPath();
     }
-    public static String internalDataDirPath = "/data/data/com.vectras.vm/files/";
+    public static String internalDataDirPath = "/data/data/com.ceyomaster/files/";
     public static String basefiledir = "";
     public static String maindirpath = "/sdcard/Documents/VectrasVM/";
     public static String recyclebin = maindirpath + "RecycleBin/";

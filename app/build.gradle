@@ -8,7 +8,7 @@ android {
     compileSdk = 37
 
     defaultConfig {
-        applicationId "com.vectras.vm"
+        applicationId "com.ceyomaster"
         minSdk minApi
         targetSdk targetApi
         versionCode 157
